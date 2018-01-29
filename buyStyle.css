@@ -1,0 +1,116 @@
+.container{
+    height: 700px;
+    background: gainsboro;
+    width: 100%;
+}
+.center{
+    padding-top: 100px;
+    background: gainsboro;
+    width: 100%;
+    margin: auto;
+    max-width: 700px;
+}
+.right{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    float: right;
+    padding: 10px;
+    border-radius: 15px;
+}
+.left{
+    flex-direction: column;
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.products{
+    width: 304px;
+    background-color: white;
+}
+.names{
+    border-bottom: 1px solid gray;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.name{
+    width: 100px;
+}
+.plus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: palegreen;
+    font-size: 20px;
+    text-align: center;
+}
+.minus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
+}
+.counter{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    display: inline-block;
+    padding-top: 5px;
+    text-align: center;
+}
+.bought{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+
+}
+.count{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+.Zalyshylosia{
+    font-size: 30px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+}
+.pechivo{
+    font-size: 20px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+}
+.Kupleno{
+    font-size: 30px;
+    height: 60px;
+    padding-top: 20px;
+}
+.dodaty{
+    font-style: oblique;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
